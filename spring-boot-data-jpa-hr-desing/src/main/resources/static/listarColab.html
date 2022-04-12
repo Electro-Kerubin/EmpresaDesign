@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmls:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title th:text="${titulo}"></title>
+</head>
+<body>
+	<h1 th:text="${titulo}"></h1>
+	
+	<table>
+		<thead>
+			<tr>
+				<th>Id Colaborador: </th>
+				<th>Rut: </th>
+				<th>Nombre: </th>
+				<th>Fecha de nacimiento: </th>
+				<th>Estado civil: </th>
+				<th>Genero: </th>
+				<th>Telefono: </th>
+				<th>Correo: </th>
+				<th>Fecha contrato</th>
+				<th></th>
+				
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr th:each="colaborador: {colaborador}">
+				<td th:text="${colaborador.id}"></td>
+			</tr>
+		</tbody>
+	</table>
+	
+</body>
+</html>

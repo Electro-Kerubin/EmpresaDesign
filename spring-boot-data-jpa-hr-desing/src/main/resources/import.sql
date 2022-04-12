@@ -1,0 +1,2 @@
+INSERT INTO colaborador(id_colab, run, dv, pnombre, snombre, appaterno, apmaterno, fecha_nacimiento, estado_civil, genero, telefono_colab, correo_colab, fecha_contrato)
+	VALUES(1,15346425,5, 'Juan', 'Jose', 'Perez', 'Paes', '1999-04-15', 'Soltero', 'M', 912345678, 'correo_jose@correo.com', '2021-05-14');
